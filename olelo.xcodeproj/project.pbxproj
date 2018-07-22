@@ -7,67 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48E329B7ED999DB5FB186FBF /* Pods_olelo_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591042FBA99CD500EE04E309 /* Pods_olelo_macOS.framework */; };
+		C9240FC77B24F0ED15F75CAE /* Pods_olelo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65305F8C4A9619E1AA91C2F /* Pods_olelo_iOS.framework */; };
 		D4EBB5AF2104E50800CB5298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5AE2104E50800CB5298 /* AppDelegate.swift */; };
 		D4EBB5B12104E50800CB5298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5B02104E50800CB5298 /* GameViewController.swift */; };
 		D4EBB5B42104E50800CB5298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5B22104E50800CB5298 /* Main.storyboard */; };
 		D4EBB5B72104E50800CB5298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5B52104E50800CB5298 /* LaunchScreen.storyboard */; };
-		D4EBB5BC2104E50800CB5298 /* olelo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D4EBB5BB2104E50800CB5298 /* olelo.app */; };
-		D4EBB5C22104E50800CB5298 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5C02104E50800CB5298 /* Interface.storyboard */; };
-		D4EBB5C92104E50900CB5298 /* olelo Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4EBB5C82104E50900CB5298 /* olelo Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D4EBB5CE2104E50900CB5298 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5CD2104E50900CB5298 /* InterfaceController.swift */; };
-		D4EBB5D02104E50900CB5298 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5CF2104E50900CB5298 /* ExtensionDelegate.swift */; };
 		D4EBB5D92104E50900CB5298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5D82104E50900CB5298 /* AppDelegate.swift */; };
 		D4EBB5DB2104E50900CB5298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5DA2104E50900CB5298 /* GameViewController.swift */; };
 		D4EBB5DE2104E50900CB5298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5DC2104E50900CB5298 /* Main.storyboard */; };
 		D4EBB5E02104E50900CB5298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A32104E50500CB5298 /* Actions.sks */; };
 		D4EBB5E12104E50900CB5298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A32104E50500CB5298 /* Actions.sks */; };
 		D4EBB5E22104E50900CB5298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A42104E50500CB5298 /* GameScene.sks */; };
-		D4EBB5E32104E50900CB5298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A42104E50500CB5298 /* GameScene.sks */; };
 		D4EBB5E42104E50900CB5298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A42104E50500CB5298 /* GameScene.sks */; };
 		D4EBB5E52104E50900CB5298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5A52104E50500CB5298 /* GameScene.swift */; };
-		D4EBB5E62104E50900CB5298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5A52104E50500CB5298 /* GameScene.swift */; };
 		D4EBB5E72104E50900CB5298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EBB5A52104E50500CB5298 /* GameScene.swift */; };
 		D4EBB5E82104E50900CB5298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A62104E50800CB5298 /* Assets.xcassets */; };
-		D4EBB5E92104E50900CB5298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A62104E50800CB5298 /* Assets.xcassets */; };
 		D4EBB5EA2104E50900CB5298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EBB5A62104E50800CB5298 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D4EBB5BD2104E50800CB5298 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4EBB59E2104E50500CB5298 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4EBB5BA2104E50800CB5298;
-			remoteInfo = "olelo watchOS App";
-		};
-		D4EBB5CA2104E50900CB5298 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4EBB59E2104E50500CB5298 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4EBB5C72104E50900CB5298;
-			remoteInfo = "olelo watchOS App Extension";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		D4EBB5F02104E50900CB5298 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D4EBB5C92104E50900CB5298 /* olelo Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D4EBB5F42104E50900CB5298 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D4EBB5BC2104E50800CB5298 /* olelo.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +40,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		220FE4559E57C0BE84D18731 /* Pods-olelo macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olelo macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-olelo macOS/Pods-olelo macOS.release.xcconfig"; sourceTree = "<group>"; };
+		3D545F7C5EDC3C08C2A48941 /* Pods-olelo macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olelo macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-olelo macOS/Pods-olelo macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		591042FBA99CD500EE04E309 /* Pods_olelo_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_olelo_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65305F8C4A9619E1AA91C2F /* Pods_olelo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_olelo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EBB5A32104E50500CB5298 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		D4EBB5A42104E50500CB5298 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D4EBB5A52104E50500CB5298 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -85,18 +54,13 @@
 		D4EBB5B32104E50800CB5298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4EBB5B62104E50800CB5298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4EBB5B82104E50800CB5298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4EBB5BB2104E50800CB5298 /* olelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4EBB5C12104E50800CB5298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		D4EBB5C32104E50800CB5298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4EBB5C82104E50900CB5298 /* olelo Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "olelo Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4EBB5CD2104E50900CB5298 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		D4EBB5CF2104E50900CB5298 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		D4EBB5D12104E50900CB5298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EBB5D62104E50900CB5298 /* olelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EBB5D82104E50900CB5298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4EBB5DA2104E50900CB5298 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D4EBB5DD2104E50900CB5298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4EBB5DF2104E50900CB5298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2822D9D75455B4B544BB3F3 /* Pods-olelo iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olelo iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-olelo iOS/Pods-olelo iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EC80E647866E106237D1BD29 /* Pods-olelo iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olelo iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-olelo iOS/Pods-olelo iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4EBB5C52104E50900CB5298 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C9240FC77B24F0ED15F75CAE /* Pods_olelo_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,21 +76,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E329B7ED999DB5FB186FBF /* Pods_olelo_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FE98A2B9854D1146DD8654A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65305F8C4A9619E1AA91C2F /* Pods_olelo_iOS.framework */,
+				591042FBA99CD500EE04E309 /* Pods_olelo_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B4CDCB96DB02A01BBD701F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2822D9D75455B4B544BB3F3 /* Pods-olelo iOS.debug.xcconfig */,
+				EC80E647866E106237D1BD29 /* Pods-olelo iOS.release.xcconfig */,
+				3D545F7C5EDC3C08C2A48941 /* Pods-olelo macOS.debug.xcconfig */,
+				220FE4559E57C0BE84D18731 /* Pods-olelo macOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D4EBB59D2104E50500CB5298 = {
 			isa = PBXGroup;
 			children = (
 				D4EBB5A22104E50500CB5298 /* olelo Shared */,
 				D4EBB5AD2104E50800CB5298 /* olelo iOS */,
-				D4EBB5BF2104E50800CB5298 /* olelo watchOS App */,
-				D4EBB5CC2104E50900CB5298 /* olelo watchOS App Extension */,
 				D4EBB5D72104E50900CB5298 /* olelo macOS */,
 				D4EBB5AC2104E50800CB5298 /* Products */,
+				79B4CDCB96DB02A01BBD701F /* Pods */,
+				4FE98A2B9854D1146DD8654A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,8 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				D4EBB5AB2104E50800CB5298 /* olelo.app */,
-				D4EBB5BB2104E50800CB5298 /* olelo.app */,
-				D4EBB5C82104E50900CB5298 /* olelo Extension.appex */,
 				D4EBB5D62104E50900CB5298 /* olelo.app */,
 			);
 			name = Products;
@@ -168,25 +145,6 @@
 				D4EBB5B82104E50800CB5298 /* Info.plist */,
 			);
 			path = "olelo iOS";
-			sourceTree = "<group>";
-		};
-		D4EBB5BF2104E50800CB5298 /* olelo watchOS App */ = {
-			isa = PBXGroup;
-			children = (
-				D4EBB5C02104E50800CB5298 /* Interface.storyboard */,
-				D4EBB5C32104E50800CB5298 /* Info.plist */,
-			);
-			path = "olelo watchOS App";
-			sourceTree = "<group>";
-		};
-		D4EBB5CC2104E50900CB5298 /* olelo watchOS App Extension */ = {
-			isa = PBXGroup;
-			children = (
-				D4EBB5CD2104E50900CB5298 /* InterfaceController.swift */,
-				D4EBB5CF2104E50900CB5298 /* ExtensionDelegate.swift */,
-				D4EBB5D12104E50900CB5298 /* Info.plist */,
-			);
-			path = "olelo watchOS App Extension";
 			sourceTree = "<group>";
 		};
 		D4EBB5D72104E50900CB5298 /* olelo macOS */ = {
@@ -207,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4EBB5F52104E50900CB5298 /* Build configuration list for PBXNativeTarget "olelo iOS" */;
 			buildPhases = (
+				446093FC357AC3D27ACCE182 /* [CP] Check Pods Manifest.lock */,
 				D4EBB5A72104E50800CB5298 /* Sources */,
 				D4EBB5A82104E50800CB5298 /* Frameworks */,
 				D4EBB5A92104E50800CB5298 /* Resources */,
@@ -215,51 +174,17 @@
 			buildRules = (
 			);
 			dependencies = (
-				D4EBB5BE2104E50800CB5298 /* PBXTargetDependency */,
 			);
 			name = "olelo iOS";
 			productName = "olelo iOS";
 			productReference = D4EBB5AB2104E50800CB5298 /* olelo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D4EBB5BA2104E50800CB5298 /* olelo watchOS App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4EBB5F12104E50900CB5298 /* Build configuration list for PBXNativeTarget "olelo watchOS App" */;
-			buildPhases = (
-				D4EBB5B92104E50800CB5298 /* Resources */,
-				D4EBB5F02104E50900CB5298 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D4EBB5CB2104E50900CB5298 /* PBXTargetDependency */,
-			);
-			name = "olelo watchOS App";
-			productName = "olelo watchOS App";
-			productReference = D4EBB5BB2104E50800CB5298 /* olelo.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D4EBB5C72104E50900CB5298 /* olelo watchOS App Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4EBB5ED2104E50900CB5298 /* Build configuration list for PBXNativeTarget "olelo watchOS App Extension" */;
-			buildPhases = (
-				D4EBB5C42104E50900CB5298 /* Sources */,
-				D4EBB5C52104E50900CB5298 /* Frameworks */,
-				D4EBB5C62104E50900CB5298 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "olelo watchOS App Extension";
-			productName = "olelo watchOS App Extension";
-			productReference = D4EBB5C82104E50900CB5298 /* olelo Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 		D4EBB5D52104E50900CB5298 /* olelo macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4EBB5F82104E50900CB5298 /* Build configuration list for PBXNativeTarget "olelo macOS" */;
 			buildPhases = (
+				214CBB7D78A7920A2146CD82 /* [CP] Check Pods Manifest.lock */,
 				D4EBB5D22104E50900CB5298 /* Sources */,
 				D4EBB5D32104E50900CB5298 /* Frameworks */,
 				D4EBB5D42104E50900CB5298 /* Resources */,
@@ -286,12 +211,6 @@
 					D4EBB5AA2104E50800CB5298 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					D4EBB5BA2104E50800CB5298 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					D4EBB5C72104E50900CB5298 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
 					D4EBB5D52104E50900CB5298 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -311,8 +230,6 @@
 			projectRoot = "";
 			targets = (
 				D4EBB5AA2104E50800CB5298 /* olelo iOS */,
-				D4EBB5BA2104E50800CB5298 /* olelo watchOS App */,
-				D4EBB5C72104E50900CB5298 /* olelo watchOS App Extension */,
 				D4EBB5D52104E50900CB5298 /* olelo macOS */,
 			);
 		};
@@ -331,23 +248,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4EBB5B92104E50800CB5298 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4EBB5E92104E50900CB5298 /* Assets.xcassets in Resources */,
-				D4EBB5C22104E50800CB5298 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4EBB5C62104E50900CB5298 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4EBB5E32104E50900CB5298 /* GameScene.sks in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D4EBB5D42104E50900CB5298 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +261,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		214CBB7D78A7920A2146CD82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-olelo macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		446093FC357AC3D27ACCE182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-olelo iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4EBB5A72104E50800CB5298 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -369,16 +308,6 @@
 				D4EBB5E52104E50900CB5298 /* GameScene.swift in Sources */,
 				D4EBB5B12104E50800CB5298 /* GameViewController.swift in Sources */,
 				D4EBB5AF2104E50800CB5298 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4EBB5C42104E50900CB5298 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4EBB5E62104E50900CB5298 /* GameScene.swift in Sources */,
-				D4EBB5D02104E50900CB5298 /* ExtensionDelegate.swift in Sources */,
-				D4EBB5CE2104E50900CB5298 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,19 +322,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D4EBB5BE2104E50800CB5298 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4EBB5BA2104E50800CB5298 /* olelo watchOS App */;
-			targetProxy = D4EBB5BD2104E50800CB5298 /* PBXContainerItemProxy */;
-		};
-		D4EBB5CB2104E50900CB5298 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D4EBB5C72104E50900CB5298 /* olelo watchOS App Extension */;
-			targetProxy = D4EBB5CA2104E50900CB5298 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D4EBB5B22104E50800CB5298 /* Main.storyboard */ = {
@@ -422,14 +338,6 @@
 				D4EBB5B62104E50800CB5298 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D4EBB5C02104E50800CB5298 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4EBB5C12104E50800CB5298 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 		D4EBB5DC2104E50900CB5298 /* Main.storyboard */ = {
@@ -550,94 +458,9 @@
 			};
 			name = Release;
 		};
-		D4EBB5EE2104E50900CB5298 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N47X9762PN;
-				INFOPLIST_FILE = "olelo watchOS App Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.olelo.olelo.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "olelo Extension";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
-			};
-			name = Debug;
-		};
-		D4EBB5EF2104E50900CB5298 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N47X9762PN;
-				INFOPLIST_FILE = "olelo watchOS App Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.olelo.olelo.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "olelo Extension";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
-			};
-			name = Release;
-		};
-		D4EBB5F22104E50900CB5298 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N47X9762PN;
-				IBSC_MODULE = olelo_Extension;
-				INFOPLIST_FILE = "olelo watchOS App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.olelo.olelo.watchkitapp;
-				PRODUCT_NAME = olelo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
-			};
-			name = Debug;
-		};
-		D4EBB5F32104E50900CB5298 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N47X9762PN;
-				IBSC_MODULE = olelo_Extension;
-				INFOPLIST_FILE = "olelo watchOS App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.olelo.olelo.watchkitapp;
-				PRODUCT_NAME = olelo;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
-			};
-			name = Release;
-		};
 		D4EBB5F62104E50900CB5298 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2822D9D75455B4B544BB3F3 /* Pods-olelo iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -659,6 +482,7 @@
 		};
 		D4EBB5F72104E50900CB5298 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC80E647866E106237D1BD29 /* Pods-olelo iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -681,6 +505,7 @@
 		};
 		D4EBB5F92104E50900CB5298 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D545F7C5EDC3C08C2A48941 /* Pods-olelo macOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -702,6 +527,7 @@
 		};
 		D4EBB5FA2104E50900CB5298 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220FE4559E57C0BE84D18731 /* Pods-olelo macOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
@@ -729,24 +555,6 @@
 			buildConfigurations = (
 				D4EBB5EB2104E50900CB5298 /* Debug */,
 				D4EBB5EC2104E50900CB5298 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4EBB5ED2104E50900CB5298 /* Build configuration list for PBXNativeTarget "olelo watchOS App Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4EBB5EE2104E50900CB5298 /* Debug */,
-				D4EBB5EF2104E50900CB5298 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4EBB5F12104E50900CB5298 /* Build configuration list for PBXNativeTarget "olelo watchOS App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4EBB5F22104E50900CB5298 /* Debug */,
-				D4EBB5F32104E50900CB5298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
